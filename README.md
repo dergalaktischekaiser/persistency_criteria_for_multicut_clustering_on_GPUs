@@ -1,0 +1,1 @@
+# persistency_criteria_for_multicut_clustering_on_GPUs
