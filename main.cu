@@ -19,6 +19,8 @@ int main(int argc, char *argv[]) {
     if (validate_input(from, to, weights)) {
         PersistencyCriteriaSolver solver(from, to, weights);
         solver.execute();
+        // uncomment the following functions, if you would like to get more execution data
+        // not recommended, when the amount of edges is a significantly big number
         /*solver.display_input();
         solver.display_abs_weights_per_vertex();
         solver.display_persistency_criteria();
